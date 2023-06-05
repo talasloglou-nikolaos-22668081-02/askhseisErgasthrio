@@ -1,0 +1,394 @@
+html {
+    font-size: 22px;
+
+}
+
+body {
+    background-color: hsl(243, 100%, 4%);
+    color: whitesmoke;
+}
+
+.header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+
+}
+
+.header ul {
+    text-align: center;
+
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+
+}
+
+a {
+    color: rgb(14, 0, 104);
+}
+
+a:visited {
+    color: rgb(51, 0, 255);
+}
+
+
+caption {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+
+.collapsible {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: #464646;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow-y: auto;
+    background-color: #333;
+}
+
+
+.image2 {
+    position: absolute;
+    top: 10px;
+    left: 37%;
+    width: 20%
+}
+
+#introh1 {
+    position: absolute;
+    top: 400px;
+    left: 36%;
+    font-family: Trebuchet MS;
+
+}
+
+
+#introp {
+    position: absolute;
+    top: 500px;
+    left: 16%;
+    font-family: Century Gothic;
+}
+
+/* div 2 paragrafoi  */
+#midp {
+    position: absolute;
+    top: 700px;
+    left: 5%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+#midp2 {
+    position: absolute;
+    top: 700px;
+    left: 35%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+#midp3 {
+    position: absolute;
+    top: 700px;
+    left: 66%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+
+/* div 3 paragrafoi  */
+#midp4 {
+    position: absolute;
+    top: 1000px;
+    left: 5%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+#midp5 {
+    position: absolute;
+    top: 1000px;
+    left: 25%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+#midp6 {
+    position: absolute;
+    top: 1000px;
+    left: 52%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+#midp7 {
+    position: absolute;
+    top: 1000px;
+    left: 75%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+/* div 4 paragrafoi  */
+#midp8 {
+    position: absolute;
+    top: 1400px;
+    left: 5%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+#midp8_2 {
+    position: absolute;
+    top: 1565px;
+    left: 5%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+#midp9 {
+    position: absolute;
+    top: 1400px;
+    left: 37%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+#pre {
+    position: absolute;
+    top: 1400px;
+    left: 65%;
+    font-family: Century Gothic;
+}
+
+/* div 5 paragrafoi  */
+#midp10 {
+    position: absolute;
+    top: 2300px;
+    left: 5%;
+    font-family: Century Gothic;
+    text-align: justify;
+
+}
+
+
+
+#parborder {
+    position: absolute;
+    top: 700pxpx;
+    border-left: 2px solid rgb(0, 3, 66);
+    height: 200px;
+    left: 30%;
+}
+
+#parborder2 {
+    position: absolute;
+    top: 700px;
+    border-left: 2px solid rgb(0, 3, 66);
+    height: 200px;
+    left: 62%;
+}
+
+#parborder3 {
+    position: absolute;
+    top: 1000px;
+    border-left: 2px solid rgb(0, 3, 66);
+    height: 200px;
+    left: 24.3%;
+}
+
+#parborder4 {
+    position: absolute;
+    top: 1000px;
+    border-left: 2px solid rgb(0, 3, 66);
+    height: 200px;
+    left: 50.5%;
+}
+
+#parborder5 {
+    position: absolute;
+    top: 1000px;
+    border-left: 2px solid rgb(0, 3, 66);
+    height: 200px;
+    left: 73%;
+}
+
+#parborder6 {
+    position: absolute;
+    top: 1000px;
+    border-left: 2px solid rgb(0, 3, 66);
+    height: 200px;
+    left: 62%;
+}
+
+hr {
+    background-color: rgb(0, 3, 66);
+    height: 2px;
+    border: 0;
+    width: 90%;
+}
+
+#h1mid {
+    position: absolute;
+    font-family: Trebuchet MS;
+    left: 38.5%;
+    color: white;
+}
+
+#h1mid2 {
+    position: absolute;
+    top: 1300px;
+
+    font-family: Trebuchet MS;
+    left: 38.5%;
+    color: white;
+}
+
+#h1mid3 {
+    position: absolute;
+    top: 2150px;
+
+    font-family: Trebuchet MS;
+    left: 36.5%;
+    color: white;
+}
+
+u {
+    text-decoration-color: #050034;
+}
+
+.divmargin {
+    width: auto;
+    height: 95%;
+    white-space: nowrap;
+
+}
+
+.divmargin2 {
+    width: auto;
+    height: 95%;
+    white-space: nowrap;
+}
+
+.divmargin3 {
+    width: auto;
+    height: 95%;
+    white-space: nowrap;
+}
+
+.divmargin4 {
+    width: auto;
+    height: 95%;
+    white-space: nowrap;
+}
+
+.divmargin5 {
+    width: auto;
+    height: 95%;
+    white-space: nowrap;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+ul {
+    position: absolute;
+    top: 1465px;
+    left: 5%;
+    font-family: Century Gothic;
+    text-align: justify;
+}
+
+#lapic {
+    width: 500px;
+}
+
+#pasta {
+    width: 500px;
+}
+
+#intropic {
+    width: 100%;
+    height: 600px;
+}
+
+figure {
+    position: absolute;
+    top: 1520px;
+    left: 35%;
+}
+
+figcaption {
+    position: absolute;
+    top: 380px;
+    left: 205px;
+}
+
+#git {
+    position: absolute;
+    width: 150px;
+    top: 2300px;
+    left: 15%;
+}
+
+#mail {
+    position: absolute;
+    width: 140px;
+    top: 2300px;
+    left: 35%;
+}
+
+#ig {
+    position: absolute;
+    width: 140px;
+    top: 2300px;
+    left: 55%;
+}
+
+#fb {
+    position: absolute;
+    width: 140px;
+    top: 2300px;
+    left: 75%;
+}
