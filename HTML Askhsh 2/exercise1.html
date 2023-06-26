@@ -28,56 +28,11 @@
                 <li><a href="exercise13.html">Ασκηση 13</a></li>
                 <li><a href="exercise14.html">Ασκηση 14</a></li>
                 <li><a href="exercise15.html">Ασκηση 15</a></li>
+                <li><a href="exercise16.html">Ασκηση 16</a></li>
                 <li><a href="Resume.html">Βιογραφικο</a></li>
             </ul>
         </nav>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
-    </script>
-
-    <hr>
-
 
 
 
@@ -98,6 +53,31 @@
         Και αυτή είναι μια δεύτερη παράγραφος”.
      </pre>
 
+
+
+
+
+
+
+
+
+    <hr>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
 
 
 
